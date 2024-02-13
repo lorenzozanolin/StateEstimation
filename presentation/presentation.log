@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1621,24 +1621,24 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
 (Font)              `T1/Roboto-LF/bold/n' on input line 242.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 242.
-<../outputs/lstmError.png, id=129, 401.8212pt x 328.8285pt>
+<../outputs/lstmError.png, id=143, 401.8212pt x 328.8285pt>
 File: ../outputs/lstmError.png Graphic file (type png)
 <use ../outputs/lstmError.png>
 Package pdftex.def Info: ../outputs/lstmError.png  used on input line 242.
 (pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
-<../outputs/lstmTrajectory.png, id=130, 299.1978pt x 281.853pt>
+<../outputs/lstmTrajectory.png, id=144, 299.1978pt x 281.853pt>
 File: ../outputs/lstmTrajectory.png Graphic file (type png)
 <use ../outputs/lstmTrajectory.png>
 Package pdftex.def Info: ../outputs/lstmTrajectory.png  used on input line 242.
 
 (pdftex.def)             Requested size: 168.43271pt x 158.67094pt.
-<../outputs/transformerError.png, id=131, 401.8212pt x 328.8285pt>
+<../outputs/transformerError.png, id=145, 401.8212pt x 328.8285pt>
 File: ../outputs/transformerError.png Graphic file (type png)
 <use ../outputs/transformerError.png>
 Package pdftex.def Info: ../outputs/transformerError.png  used on input line 24
 2.
 (pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
-<../outputs/transformerTrajectory.png, id=132, 299.1978pt x 287.6346pt>
+<../outputs/transformerTrajectory.png, id=146, 299.1978pt x 287.6346pt>
 File: ../outputs/transformerTrajectory.png Graphic file (type png)
 <use ../outputs/transformerTrajectory.png>
 Package pdftex.def Info: ../outputs/transformerTrajectory.png  used on input li
@@ -1687,6 +1687,42 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 
  <../outputs/transformerError.png> <../outputs/transformerTrajectory.png>]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[13
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[14
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[15
+
+]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1696,22 +1732,21 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
-
-(./presentation.aux)
+ (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: A1643C0ABE816CD2CC01AE0EC455229E;314.
+(rerunfilecheck)             Checksum: 5326E9EEA2DACFC7E2555106C47EA16D;505.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36984 strings out of 478268
- 732322 string characters out of 5846347
- 1367881 words of memory out of 5000000
- 54464 multiletter control sequences out of 15000+600000
+ 37246 strings out of 478268
+ 737845 string characters out of 5846347
+ 1368011 words of memory out of 5000000
+ 54716 multiletter control sequences out of 15000+600000
  573028 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,745b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,122p,745b,1549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}</
 usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></
@@ -1719,10 +1754,10 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (12 pages, 3155187 bytes).
+Output written on presentation.pdf (15 pages, 3163118 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,5 +16,112 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{vaswani2017attention}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Attention is all you need}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+    \entry{yu2019review}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c447a713c11f58a40c2a899040774a98}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bfc45da190cb661143c8a28c64fe9af3}{%
+           family={Si},
+           familyi={S\bibinitperiod},
+           given={Xiaosheng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=83444556f7d72cd5d40f9416eb4d41f8}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Changhua},
+           giveni={C\bibinitperiod}}}%
+        {{hash=354c58556dbbc757e615ab80be77d404}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jianxun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}%
+      }
+      \strng{namehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{fullhash}{265b947d51b59b1e4e6250ca124ff41a}
+      \strng{bibnamehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{authorbibnamehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{authornamehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{authorfullhash}{265b947d51b59b1e4e6250ca124ff41a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural computation}
+      \field{number}{7}
+      \field{title}{A review of recurrent neural networks: LSTM cells and network architectures}
+      \field{volume}{31}
+      \field{year}{2019}
+      \field{pages}{1235\bibrangedash 1270}
+      \range{pages}{36}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

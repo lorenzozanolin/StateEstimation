@@ -169,8 +169,8 @@ In this script we will save the output as bagfile, then it will be indexed to re
     %riassumi tutte le combinazioni di hyperp
     The used architectures are:
     \begin{itemize}
-        \item LSTM
-        \item Transformer
+        \item LSTM \cite{yu2019review}
+        \item Transformer \cite{vaswani2017attention}
     \end{itemize}
     As for the parameters:
     \begin{itemize}
@@ -239,6 +239,24 @@ Results with Transformer:
         \end{minipage}
     \end{center}
 \end{figure}
+\end{frame}
+
+\section{Conclusions}
+
+\setLayout{mainpoint}
+\setBGColor{LightGray}
+\begin{frame}{}
+    \frametitle{Conclusions}
+\end{frame}
+\setLayout{vertical}
+
+\begin{frame}{To conclude}
+    In conclusion, while the experiments testing state estimation using LSTM and Transformers resulted in suboptimal results, the process proved invaluable in gaining a deeper understanding of their functionality.\\ \vspace{5mm} We did various adjustments of hyperparameters and architectures (switching between the two), thus we have enhanced our comprehension of their capabilities and structure.
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+    \nocite{*} 
+    \printbibliography
 \end{frame}
 
 \end{document}
