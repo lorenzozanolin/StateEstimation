@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1236,14 +1236,7 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 \@quotelevel=\count497
 \@quotereset=\count498
 
-(./presentation.aux
-
-LaTeX Warning: Label `graph1' multiply defined.
-
-
-LaTeX Warning: Label `graph2' multiply defined.
-
-)
+(./presentation.aux)
 \openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -1633,12 +1626,12 @@ File: ../outputs/lstmError.png Graphic file (type png)
 <use ../outputs/lstmError.png>
 Package pdftex.def Info: ../outputs/lstmError.png  used on input line 241.
 (pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
-<../outputs/lstmTrajectory.png, id=130, 299.1978pt x 289.08pt>
+<../outputs/lstmTrajectory.png, id=130, 299.1978pt x 281.853pt>
 File: ../outputs/lstmTrajectory.png Graphic file (type png)
 <use ../outputs/lstmTrajectory.png>
 Package pdftex.def Info: ../outputs/lstmTrajectory.png  used on input line 241.
 
-(pdftex.def)             Requested size: 168.43271pt x 162.73943pt.
+(pdftex.def)             Requested size: 168.43271pt x 158.67094pt.
 <../outputs/transformerError.png, id=131, 401.8212pt x 328.8285pt>
 File: ../outputs/transformerError.png Graphic file (type png)
 <use ../outputs/transformerError.png>
@@ -1664,10 +1657,6 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \vbox (3.40321pt too high) detected at line 241
- []
-
-
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1697,20 +1686,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [12
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{graph1}) has 
-been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.241 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{graph2}) has 
-been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.241 \end{frame}
-                  <../outputs/transformerError.png> <../outputs/transformerTraj
-ectory.png>]
+ <../outputs/transformerError.png> <../outputs/transformerTrajectory.png>]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1720,10 +1696,8 @@ ectory.png>]
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
- (./presentation.aux)
 
-LaTeX Warning: There were multiply-defined labels.
-
+(./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: A1643C0ABE816CD2CC01AE0EC455229E;314.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
@@ -1731,10 +1705,10 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36980 strings out of 478268
- 732294 string characters out of 5846347
- 1367843 words of memory out of 5000000
- 54462 multiletter control sequences out of 15000+600000
+ 36984 strings out of 478268
+ 732322 string characters out of 5846347
+ 1367881 words of memory out of 5000000
+ 54464 multiletter control sequences out of 15000+600000
  573028 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,745b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1745,10 +1719,10 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (12 pages, 3165128 bytes).
+Output written on presentation.pdf (12 pages, 3160815 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
