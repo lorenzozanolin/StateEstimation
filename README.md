@@ -11,12 +11,32 @@ We will utilize TurtleBot3 as the mobile robot to gather measurements within the
 To achieve our objectives, we will follow these steps:
 
 1. **Launch TurtleBot3 inside Gazebo**: Begin by initializing TurtleBot3 within the Gazebo simulation environment.
+    ```
+    cd ~/catkin_ws
+    catkin_make
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
+    ```
 
 2. **Run Navigation Node**: Execute the Navigation node to perform Initial Pose estimation and gather information about the surrounding environment.
+    ```
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_navigation turtlebot3_navigation.launch 
+        map_file:=$HOME/map.yaml
+    ```
 
 3. **Launch Recording Script**: Utilize the script `turtlebot3_waypoints.py` to record the bagfile generated during the simulation.
+    ```
+    roslaunch turtlebot3_waypoints turtlebot3_waypoints.launch
+        bagfile:=/home/lorenzo/runs/run.bag
+    ```
 
 4. **Index Bagfiles**: Index all obtained bagfiles to optimize storage space and facilitate access.
+    ```
+    rosbag reindex run.bag
+    ```
+
 
 5. **Launch Neural Network**: Run the neural network with the collected data and record the results for analysis.
 
