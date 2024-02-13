@@ -39,6 +39,16 @@
 
 \usepackage{listings}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=red,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
 \lstset{
   xleftmargin=8pt,
   xrightmargin=0pt,
@@ -194,7 +204,7 @@ In this script we will save the output as bagfile, then it will be indexed to re
 \setLayout{vertical}
 
 \begin{frame}[allowframebreaks]{Experiment}
-We will briefly report a short table demonstrating the best results for each architecture; the complete results can be found in %link github.
+We will briefly report a short table demonstrating the best results for each architecture; the complete results table can be found in my \href{https://github.com/lorenzozanolin/StateEstimation}{GitHub repo}.%link github.
 \begin{table}[]
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
     \hline
@@ -203,7 +213,7 @@ We will briefly report a short table demonstrating the best results for each arc
     Transformer, dropout = 0.2            & 10                                     & 64                                         & 0.3181               & 0.3780             \\ \hline
     \end{tabular}
     \end{table}
-As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins. We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\
+As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always around 2-3 minutes. We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\
 \vspace{2mm}
 Note: All LSTM measurements were done using Colab standard CPU (Intel Xeon CPU with 2 vCPUs and 13GB of RAM), while Transformer ones were done on a M1 Pro 10 core.\\
 
