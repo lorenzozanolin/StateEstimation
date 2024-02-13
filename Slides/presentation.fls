@@ -1808,6 +1808,9 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/google/roboto/Roboto-Bold-lf-t1.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm
 OUTPUT presentation.nav
 OUTPUT presentation.toc
 OUTPUT presentation.snm

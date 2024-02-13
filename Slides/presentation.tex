@@ -195,7 +195,15 @@ In this script we will save the output as bagfile, then it will be indexed to re
 
 \begin{frame}{Experiment}
 We will briefly report a short table demonstrating the best results for each architecture; the complete results can be found in %link github.
-
+\begin{table}[]
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+    \hline
+    \textbf{model} & \textbf{epochs} & \textbf{batch size} & \textbf{train loss} & \textbf{test loss} \\ \hline
+    LSTM                                  & 20                                     & 32                                         & 0.1668              & 0.3618             \\ \hline
+    Transformer, dropout = 0.3            & 20                                     & 16                                         & 0.389               & 0.4496             \\ \hline
+    \end{tabular}
+    \end{table}
+As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins.
 Note: All the measurements were done using a M1 Pro processor.
 \end{frame}
 
