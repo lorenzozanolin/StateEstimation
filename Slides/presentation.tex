@@ -193,7 +193,7 @@ In this script we will save the output as bagfile, then it will be indexed to re
 \end{frame}
 \setLayout{vertical}
 
-\begin{frame}{Experiment}
+\begin{frame}[allowframebreaks]{Experiment}
 We will briefly report a short table demonstrating the best results for each architecture; the complete results can be found in %link github.
 \begin{table}[]
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
@@ -203,8 +203,41 @@ We will briefly report a short table demonstrating the best results for each arc
     Transformer, dropout = 0.3            & 20                                     & 16                                         & 0.389               & 0.4496             \\ \hline
     \end{tabular}
     \end{table}
-As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins.
-Note: All the measurements were done using a M1 Pro processor.
+As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins.\\\vspace{5mm}
+Note: All the measurements were done using a M1 Pro processor.\\
+We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\\vspace{5mm}
+Results with LSTM:
+\begin{figure}[!htb]
+    \begin{center}
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../outputs/lstmError.png}
+            \caption{Errors}\label{graph1}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../outputs/lstmTrajectory.png}
+            \caption{Estimated trajectory.}\label{graph2}
+        \end{minipage}
+    \end{center}
+\end{figure}
+Results with Transformer:
+\begin{figure}[!htb]
+    \begin{center}
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../outputs/transformerError.png}
+            \caption{Errors}\label{graph1}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{../outputs/transformerTrajectory.png}
+            \caption{Estimated trajectory.}\label{graph2}
+        \end{minipage}
+    \end{center}
+\end{figure}
 \end{frame}
 
 \end{document}

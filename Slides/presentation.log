@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 12:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1236,7 +1236,14 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 \@quotelevel=\count497
 \@quotereset=\count498
 
-(./presentation.aux)
+(./presentation.aux
+
+LaTeX Warning: Label `graph1' multiply defined.
+
+
+LaTeX Warning: Label `graph2' multiply defined.
+
+)
 \openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -1618,9 +1625,32 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 208.
+(Font)              `T1/Roboto-LF/bold/n' on input line 241.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 208.
+(Font)              scaled to size 10.95pt on input line 241.
+<../outputs/lstmError.png, id=129, 401.8212pt x 328.8285pt>
+File: ../outputs/lstmError.png Graphic file (type png)
+<use ../outputs/lstmError.png>
+Package pdftex.def Info: ../outputs/lstmError.png  used on input line 241.
+(pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
+<../outputs/lstmTrajectory.png, id=130, 299.1978pt x 289.08pt>
+File: ../outputs/lstmTrajectory.png Graphic file (type png)
+<use ../outputs/lstmTrajectory.png>
+Package pdftex.def Info: ../outputs/lstmTrajectory.png  used on input line 241.
+
+(pdftex.def)             Requested size: 168.43271pt x 162.73943pt.
+<../outputs/transformerError.png, id=131, 401.8212pt x 328.8285pt>
+File: ../outputs/transformerError.png Graphic file (type png)
+<use ../outputs/transformerError.png>
+Package pdftex.def Info: ../outputs/transformerError.png  used on input line 24
+1.
+(pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
+<../outputs/transformerTrajectory.png, id=132, 299.1978pt x 289.08pt>
+File: ../outputs/transformerTrajectory.png Graphic file (type png)
+<use ../outputs/transformerTrajectory.png>
+Package pdftex.def Info: ../outputs/transformerTrajectory.png  used on input li
+ne 241.
+(pdftex.def)             Requested size: 168.43271pt x 162.73943pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -1634,6 +1664,53 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [10
 
 ]
+Overfull \vbox (3.40321pt too high) detected at line 241
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[11
+
+
+ <../outputs/lstmError.png> <../outputs/lstmTrajectory.png>]
+Overfull \vbox (3.40321pt too high) detected at line 241
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[12
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{graph1}) has 
+been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.241 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{graph2}) has 
+been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.241 \end{frame}
+                  <../outputs/transformerError.png> <../outputs/transformerTraj
+ectory.png>]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1644,6 +1721,9 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 \openout9 = `presentation.snm'.
 
  (./presentation.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: A1643C0ABE816CD2CC01AE0EC455229E;314.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
@@ -1651,11 +1731,11 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36910 strings out of 478268
- 730632 string characters out of 5846347
- 1367727 words of memory out of 5000000
- 54404 multiletter control sequences out of 15000+600000
- 572606 words of font info for 91 fonts, out of 8000000 for 9000
+ 36980 strings out of 478268
+ 732294 string characters out of 5846347
+ 1367843 words of memory out of 5000000
+ 54462 multiletter control sequences out of 15000+600000
+ 573028 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,745b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}</
@@ -1665,10 +1745,10 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (10 pages, 3030690 bytes).
+Output written on presentation.pdf (12 pages, 3165128 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
