@@ -213,10 +213,10 @@ We will briefly report a short table demonstrating the best results for each arc
     Transformer, dropout = 0.7            & 10                                     & 64                                         & 0.3181               & 0.3780             \\ \hline
     \end{tabular}
     \end{table}
-As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always around 2-3 minutes. We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\
-\vspace{2mm}
-Note: All LSTM measurements were done using Colab standard CPU (Intel Xeon CPU with 2 vCPUs and 13GB of RAM), while Transformer ones were done on a M1 Pro 10 core.\\
-
+As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always around 2-3 minutes for bigger batch sizes, while for the smaller ones (4-8) the model required almost 20 minutes per epoch.\\
+\vspace{5mm}
+We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\
+\vspace{4mm}
 Results with LSTM:
 \begin{figure}[!htb]
     \begin{center}
@@ -249,6 +249,13 @@ Results with Transformer:
         \end{minipage}
     \end{center}
 \end{figure}
+
+As observed, the train error of the LSTM appears to decrease steadily with each epoch, whereas for the Transformer, it seems to stabilize around $0.3$. \\
+\vspace{5mm}
+
+However, for the test error, both models exhibit fluctuations across different values.\\
+\vspace{5mm}
+Note: All LSTM measurements were done using Colab standard CPU (Intel Xeon CPU with 2 vCPUs and 13GB of RAM), while Transformer ones were done on a M1 Pro 10 core.\\
 \end{frame}
 
 \section{Conclusions}
