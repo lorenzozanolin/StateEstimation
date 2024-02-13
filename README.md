@@ -28,27 +28,17 @@ The best results obtained are the following:
 | LSTM                                                | 20     | 32         | 256         | MSE, reduction='mean' | adam, lr=0.0002 | step_size=200, gamma=0.01 | 0.1668     | 0.3618    |
 | Transformer, dropout = 0.3                          | 20     | 16         | 6           | MSE, reduction='mean' | adam, lr=0.001  | step_size=300, gamma=0.2  | 0.389      | 0.4496    |
 
+
 Results with LSTM:
-
-| <img src="outputs/lstmError.png"> |
-|:--:|
-| <b>Errors</b>|
-
-| <img src="outputs/lstmTrajectory.png"> |
-|:--:|
-| <b>Estimated trajectory</b>|
+Errors             |  Estimated trajectory
+:-------------------------:|:-------------------------:
+![](outputs/lstmError.png)  |  ![](outputs/lstmTrajectory.png)
 
 -------------------------------------
 
 Results with Transformer:
-
-| <img src="outputs/transformerError.png"> |
-|:--:|
-| <b>Errors</b>|
-
-| <img src="outputs/transformerTrajectory.png"> |
-|:--:|
-| <b>Estimated trajectory</b>|
-
+Errors             |  Estimated trajectory
+:-------------------------:|:-------------------------:
+![](outputs/transformerError.png)  |  ![](outputs/transformerTrajectory.png)
 
 For the complete view, check the file `results.pdf`.
