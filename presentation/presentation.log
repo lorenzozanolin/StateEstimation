@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1632,18 +1632,18 @@ File: ../outputs/lstmTrajectory.png Graphic file (type png)
 Package pdftex.def Info: ../outputs/lstmTrajectory.png  used on input line 242.
 
 (pdftex.def)             Requested size: 168.43271pt x 158.67094pt.
-<../outputs/transformerError.png, id=145, 401.8212pt x 328.8285pt>
+<../outputs/transformerError.png, id=145, 462.528pt x 346.896pt>
 File: ../outputs/transformerError.png Graphic file (type png)
 <use ../outputs/transformerError.png>
 Package pdftex.def Info: ../outputs/transformerError.png  used on input line 24
 2.
-(pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
-<../outputs/transformerTrajectory.png, id=146, 299.1978pt x 287.6346pt>
+(pdftex.def)             Requested size: 168.43271pt x 126.3275pt.
+<../outputs/transformerTrajectory.png, id=146, 299.1978pt x 289.08pt>
 File: ../outputs/transformerTrajectory.png Graphic file (type png)
 <use ../outputs/transformerTrajectory.png>
 Package pdftex.def Info: ../outputs/transformerTrajectory.png  used on input li
 ne 242.
-(pdftex.def)             Requested size: 168.43271pt x 161.92572pt.
+(pdftex.def)             Requested size: 168.43271pt x 162.73943pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -1670,7 +1670,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 
  <../outputs/lstmError.png> <../outputs/lstmTrajectory.png>]
-Overfull \vbox (2.58951pt too high) detected at line 242
+Overfull \vbox (3.40321pt too high) detected at line 242
  []
 
 
@@ -1754,7 +1754,7 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (15 pages, 3163118 bytes).
+Output written on presentation.pdf (15 pages, 3162052 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  146 compressed objects within 2 object streams

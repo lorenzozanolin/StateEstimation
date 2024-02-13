@@ -46,7 +46,7 @@ The best results obtained are the following:
 | model                                               | epochs | batch size | hidden size | loss                  | optimizer       | lr                        | train loss | test loss |
 | --------------------------------------------------- | ------ | ---------- | ----------- | --------------------- | --------------- | ------------------------- | ---------- | --------- |
 | LSTM                                                | 20     | 32         | 256         | MSE, reduction='mean' | adam, lr=0.0002 | step_size=200, gamma=0.01 | 0.1668     | 0.3618    |
-| Transformer, dropout = 0.3                          | 20     | 16         | 6           | MSE, reduction='mean' | adam, lr=0.001  | step_size=300, gamma=0.2  | 0.389      | 0.4496    |
+| Transformer, dropout = 0.7                          | 10     | 64         | 6           | MSE, reduction='mean' | adam, lr=0.0005  | step_size=400, gamma=0.3  | 0.3181      | 0.3780    |
 
 
 Results with LSTM:

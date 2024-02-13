@@ -200,7 +200,7 @@ We will briefly report a short table demonstrating the best results for each arc
     \hline
     \textbf{model} & \textbf{epochs} & \textbf{batch size} & \textbf{train loss} & \textbf{test loss} \\ \hline
     LSTM                                  & 20                                     & 32                                         & 0.1668              & 0.3618             \\ \hline
-    Transformer, dropout = 0.2            & 15                                     & 16                                         & 0.389               & 0.4464             \\ \hline
+    Transformer, dropout = 0.2            & 10                                     & 64                                         & 0.3181               & 0.3780             \\ \hline
     \end{tabular}
     \end{table}
 As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins. We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\
