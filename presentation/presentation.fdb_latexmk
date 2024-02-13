@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber presentation"] 1707840042 "presentation.bcf" "presentation.bbl" "presentation" 1707849968
-  "presentation.bcf" 1707849968 107265 f4abdfb1a00ce67040397a2283758c47 "pdflatex"
+["biber presentation"] 1707840042 "presentation.bcf" "presentation.bbl" "presentation" 1707850138
+  "presentation.bcf" 1707850138 107265 f4abdfb1a00ce67040397a2283758c47 "pdflatex"
   "thud.bib" 1707839973 702 319a35eee45beea0e4d33c5fb476c40c ""
   (generated)
   "presentation.bbl"
   "presentation.blg"
-["pdflatex"] 1707849966 "presentation.tex" "presentation.pdf" "presentation" 1707849968
+["pdflatex"] 1707850136 "presentation.tex" "presentation.pdf" "presentation" 1707850138
   "../outputs/lstmError.png" 1707824530 29942 95ed0831dac66c70a8d4403a9afd516b ""
   "../outputs/lstmTrajectory.png" 1707826609 57515 780fac7eab7812738fef0467e8b2613a ""
   "../outputs/transformerError.png" 1707846919 22422 63d8a59a33a8c4050b7049d5e1f629d0 ""
@@ -279,13 +279,13 @@
   "lib/logos/infw.png" 1707826951 8369 7796544599d461027011549582da4269 ""
   "lib/logos/infw2.png" 1707826951 20915 f4eea467f1741b327d09ca9096fd4e0f ""
   "lib/logos/ufgw.png" 1707826951 2078 21f24e13fe152f4e2ea0c9b5da7654c9 ""
-  "presentation.aux" 1707849968 5289 163a7bd77dcea635fee0c0c56f696e13 "pdflatex"
+  "presentation.aux" 1707850138 5289 163a7bd77dcea635fee0c0c56f696e13 "pdflatex"
   "presentation.bbl" 1707840043 4614 4eaf09bad64256e502810f12467943e3 "biber presentation"
-  "presentation.nav" 1707849968 2446 296987e0d2bee51e2ba2b1471ee41560 "pdflatex"
-  "presentation.out" 1707849968 505 5326e9eea2dacfc7e2555106c47ea16d "pdflatex"
-  "presentation.run.xml" 1707849968 2355 441b8a4ce6a2dbd0d11588fefa67217a "pdflatex"
-  "presentation.tex" 1707849964 10313 d4745d4900b20b81538e6a73378c6cc3 ""
-  "presentation.toc" 1707849968 193 04518168af6493790387a431178c9628 "pdflatex"
+  "presentation.nav" 1707850138 2446 296987e0d2bee51e2ba2b1471ee41560 "pdflatex"
+  "presentation.out" 1707850138 505 5326e9eea2dacfc7e2555106c47ea16d "pdflatex"
+  "presentation.run.xml" 1707850138 2355 441b8a4ce6a2dbd0d11588fefa67217a "pdflatex"
+  "presentation.tex" 1707850134 10317 7d247386016206755949383bd0dadc71 ""
+  "presentation.toc" 1707850138 193 04518168af6493790387a431178c9628 "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.bcf"
