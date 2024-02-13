@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  13 FEB 2024 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1618,32 +1618,32 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 241.
+(Font)              `T1/Roboto-LF/bold/n' on input line 242.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 241.
+(Font)              scaled to size 10.95pt on input line 242.
 <../outputs/lstmError.png, id=129, 401.8212pt x 328.8285pt>
 File: ../outputs/lstmError.png Graphic file (type png)
 <use ../outputs/lstmError.png>
-Package pdftex.def Info: ../outputs/lstmError.png  used on input line 241.
+Package pdftex.def Info: ../outputs/lstmError.png  used on input line 242.
 (pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
 <../outputs/lstmTrajectory.png, id=130, 299.1978pt x 281.853pt>
 File: ../outputs/lstmTrajectory.png Graphic file (type png)
 <use ../outputs/lstmTrajectory.png>
-Package pdftex.def Info: ../outputs/lstmTrajectory.png  used on input line 241.
+Package pdftex.def Info: ../outputs/lstmTrajectory.png  used on input line 242.
 
 (pdftex.def)             Requested size: 168.43271pt x 158.67094pt.
 <../outputs/transformerError.png, id=131, 401.8212pt x 328.8285pt>
 File: ../outputs/transformerError.png Graphic file (type png)
 <use ../outputs/transformerError.png>
 Package pdftex.def Info: ../outputs/transformerError.png  used on input line 24
-1.
+2.
 (pdftex.def)             Requested size: 168.43271pt x 137.83607pt.
-<../outputs/transformerTrajectory.png, id=132, 299.1978pt x 289.08pt>
+<../outputs/transformerTrajectory.png, id=132, 299.1978pt x 287.6346pt>
 File: ../outputs/transformerTrajectory.png Graphic file (type png)
 <use ../outputs/transformerTrajectory.png>
 Package pdftex.def Info: ../outputs/transformerTrajectory.png  used on input li
-ne 241.
-(pdftex.def)             Requested size: 168.43271pt x 162.73943pt.
+ne 242.
+(pdftex.def)             Requested size: 168.43271pt x 161.92572pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -1670,7 +1670,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 
  <../outputs/lstmError.png> <../outputs/lstmTrajectory.png>]
-Overfull \vbox (3.40321pt too high) detected at line 241
+Overfull \vbox (2.58951pt too high) detected at line 242
  []
 
 
@@ -1719,7 +1719,7 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (12 pages, 3160811 bytes).
+Output written on presentation.pdf (12 pages, 3155187 bytes).
 PDF statistics:
  194 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams

@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber presentation"] 1707826960 "presentation.bcf" "presentation.bbl" "presentation" 1707827195
-  "presentation.bcf" 1707827195 106629 1a4af349cc2ca1428e254bf39da38eb3 "pdflatex"
+["biber presentation"] 1707826960 "presentation.bcf" "presentation.bbl" "presentation" 1707839107
+  "presentation.bcf" 1707839107 106629 1a4af349cc2ca1428e254bf39da38eb3 "pdflatex"
   (generated)
   "presentation.bbl"
   "presentation.blg"
-["pdflatex"] 1707827193 "presentation.tex" "presentation.pdf" "presentation" 1707827195
+["pdflatex"] 1707839105 "presentation.tex" "presentation.pdf" "presentation" 1707839107
   "../outputs/lstmError.png" 1707824530 29942 95ed0831dac66c70a8d4403a9afd516b ""
   "../outputs/lstmTrajectory.png" 1707826609 57515 780fac7eab7812738fef0467e8b2613a ""
-  "../outputs/transformerError.png" 1707824597 25501 53abdf232165ce7b4bdb3b1dfcd41c12 ""
-  "../outputs/transformerTrajectory.png" 1707824597 63797 09897c7c64d1b71af577c878de6f7a08 ""
+  "../outputs/transformerError.png" 1707839028 26225 08ab04e1911fa994c724a8bd5915825d ""
+  "../outputs/transformerTrajectory.png" 1707839028 55281 ff532b763881c423e376ad968417cb57 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -278,13 +278,13 @@
   "lib/logos/infw.png" 1707826951 8369 7796544599d461027011549582da4269 ""
   "lib/logos/infw2.png" 1707826951 20915 f4eea467f1741b327d09ca9096fd4e0f ""
   "lib/logos/ufgw.png" 1707826951 2078 21f24e13fe152f4e2ea0c9b5da7654c9 ""
-  "presentation.aux" 1707827195 3972 4633a0a46412898a80bb57915b6ea0cf "pdflatex"
+  "presentation.aux" 1707839107 3972 4633a0a46412898a80bb57915b6ea0cf "pdflatex"
   "presentation.bbl" 1707826961 466 ee04f40f768daeed26442158e95aba61 "biber presentation"
-  "presentation.nav" 1707827195 1762 c67aff7a3de0021f015a6a25ae8d632f "pdflatex"
-  "presentation.out" 1707827195 314 a1643c0abe816cd2cc01ae0ec455229e "pdflatex"
-  "presentation.run.xml" 1707827195 2355 441b8a4ce6a2dbd0d11588fefa67217a "pdflatex"
-  "presentation.tex" 1707827185 8792 36b4b8d95eeffa9a413669c7261da29e ""
-  "presentation.toc" 1707827195 145 b98c06377f50ac3ac222db00679e59ca "pdflatex"
+  "presentation.nav" 1707839107 1762 c67aff7a3de0021f015a6a25ae8d632f "pdflatex"
+  "presentation.out" 1707839107 314 a1643c0abe816cd2cc01ae0ec455229e "pdflatex"
+  "presentation.run.xml" 1707839107 2355 441b8a4ce6a2dbd0d11588fefa67217a "pdflatex"
+  "presentation.tex" 1707839101 8918 fd68f3f8ffb3cfc64bcd26db7929519e ""
+  "presentation.toc" 1707839107 145 b98c06377f50ac3ac222db00679e59ca "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.bcf"

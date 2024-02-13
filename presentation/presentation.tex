@@ -174,7 +174,7 @@ In this script we will save the output as bagfile, then it will be indexed to re
     \end{itemize}
     As for the parameters:
     \begin{itemize}
-        \item Adam as optimizer
+        \item Adam as optimizer (also with weight decay $wd=0.01$)
         \item learning rate $lr \in \{0.0002,0.0001,0.0005,0.001\}$.
         \item step size $step\_size \in \{50,100,200,300\}$.
         \item gamma $gamma \in \{0.01,0.1,0.2\}$.
@@ -200,12 +200,13 @@ We will briefly report a short table demonstrating the best results for each arc
     \hline
     \textbf{model} & \textbf{epochs} & \textbf{batch size} & \textbf{train loss} & \textbf{test loss} \\ \hline
     LSTM                                  & 20                                     & 32                                         & 0.1668              & 0.3618             \\ \hline
-    Transformer, dropout = 0.3            & 20                                     & 16                                         & 0.389               & 0.4496             \\ \hline
+    Transformer, dropout = 0.2            & 15                                     & 16                                         & 0.389               & 0.4464             \\ \hline
     \end{tabular}
     \end{table}
-As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins.\\\vspace{5mm}
-Note: All the measurements were done using a M1 Pro 10 core.\\
-We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\\vspace{5mm}
+As we can see, we obtained slightly better results using LSTMs; the runs were done mainly on CPU, thus the required time per epoch was always above 1-2 mins. We will now show the obtained graphs of the errors w.r.t. the number of epochs.\\
+\vspace{2mm}
+Note: All LSTM measurements were done using Colab standard CPU (Intel Xeon CPU with 2 vCPUs and 13GB of RAM), while Transformer ones were done on a M1 Pro 10 core.\\
+
 Results with LSTM:
 \begin{figure}[!htb]
     \begin{center}
