@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  14 FEB 2024 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  14 FEB 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,6 +1622,11 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
 (Font)              `T1/Roboto-LF/bold/n' on input line 259.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 259.
+
+Overfull \hbox (9.50633pt too wide) in paragraph at lines 259--259
+ [] 
+ []
+
 <../outputs/lstmError.png, id=144, 401.8212pt x 328.8285pt>
 File: ../outputs/lstmError.png Graphic file (type png)
 <use ../outputs/lstmError.png>
@@ -1756,7 +1761,7 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 Here is how much of TeX's memory you used:
  37250 strings out of 478268
  737880 string characters out of 5846347
- 1367989 words of memory out of 5000000
+ 1367990 words of memory out of 5000000
  54718 multiletter control sequences out of 15000+600000
  573028 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1768,7 +1773,7 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (16 pages, 3166952 bytes).
+Output written on presentation.pdf (16 pages, 3166965 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
