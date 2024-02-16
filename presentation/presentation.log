@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  16 FEB 2024 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  16 FEB 2024 16:01
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **presentation.tex
 (./presentation.tex
@@ -956,8 +957,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
 
-pdfTeX warning: pdflatex (file ./lib/layouts/title_bg.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./lib/layouts/title_bg.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 )
 \c@conj=\count355
 \c@defi=\count356
@@ -1773,7 +1774,7 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (16 pages, 3166991 bytes).
+Output written on presentation.pdf (16 pages, 3166992 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
